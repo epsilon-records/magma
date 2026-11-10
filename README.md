@@ -6,7 +6,7 @@ Part of **[Epsilon Audio](https://github.com/natehouk/epsilon-plugins)**, a fami
 
 ![Magma](screenshot.png)
 
-Magma is a multiband distortion with up to six bands, 28 styles, linear-phase crossovers and a full modulation system. It was written from scratch; no third-party code, presets or artwork are included.
+Magma is a multiband distortion with up to six bands, 28 styles, linear-phase crossovers and a full modulation system. It was written from scratch: the DSP, interface and presets are original work, and third-party components (such as the DPF framework) are listed under [License](#license).
 
 It is part of a family of plugins:
 - [Monolith](https://github.com/natehouk/monolith) (synth)

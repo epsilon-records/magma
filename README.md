@@ -6,7 +6,7 @@ Part of **[Epsilon Audio](https://github.com/natehouk/epsilon-plugins)**, a fami
 
 ![Magma](screenshot.png)
 
-Magma is a clean-room design with the feature set of FabFilter Saturn 2 (2017), the second version of FabFilter's multiband distortion. It was written from scratch, working only from FabFilter's public product pages, release announcements and reviews. No FabFilter code, binaries, presets, artwork or trademarks were used.
+Magma is a multiband distortion with up to six bands, 28 styles, linear-phase crossovers and a full modulation system. It was written from scratch; no third-party code, presets or artwork are included.
 
 It is part of a family of plugins:
 - [Monolith](https://github.com/natehouk/monolith) (synth)
@@ -116,27 +116,7 @@ Drive is **level-compensated**: every style stays within about 2 dB of the input
 - The preset browser **searches** names and categories as you type, and a star keeps a preset in **Favourites**.
 - **Hover tips** everywhere, a **HELP window**, and a **[full manual](docs/MANUAL.md)** (also in every release zip as `Magma-Manual.html`)
 
-### Compared with FabFilter Saturn 2
-
-| Saturn 2 | Magma |
-|---|---|
-| Multiband processing, up to six bands | ✓ |
-| 28 distortion styles in five families (tube, tape, amp, saturation, FX) | ✓ 28 original styles in the same five families |
-| Per-band drive, mix, feedback, dynamics, tone and level | ✓ plus pan, mute and solo |
-| Linear-phase crossover option | ✓ |
-| Crossover slopes from 6 to 48 dB/oct | ✓ 6, 12, 24, 48 dB/oct |
-| Normal, Good and Superb quality (oversampling) | ✓ 2×, 8×, 32× |
-| Mid/side processing | ✓ |
-| XLFOs (16-step), XY controllers, envelope generators, envelope followers, MIDI sources | ✓ |
-| Presets for individual modulation sources | ✓ XLFO, EG and EF presets, factory and user |
-| Drag-and-drop modulation, 50-slot matrix, source visualisation | ✓ |
-| Floating slot panel on modulated knobs | ✓ |
-| Interactive multiband display | ✓ |
-| MIDI Learn, undo/redo, A/B, parameter interpolation, sample-accurate automation | ✓ |
-| Large factory preset library | 59 factory presets |
-| Resizable interface, full-screen mode | Freely resizable interface |
-| Mono and surround | Stereo |
-| AAX, AudioSuite | Not supported (needs Avid's SDK and signing) |
+Not supported: AAX, AudioSuite.
 
 ## Build from source
 
@@ -208,7 +188,7 @@ Release checks:
 ## Changelog
 
 - **2.1:** the preset browser searches names and categories as you type, and keeps Favourites.
-- **2.0:** Brings Magma up to Saturn 2. New in this version:
+- **2.0:** New in this version:
   - Twelve new styles (28 in all); the Experimental family is renamed FX.
   - Linear-phase crossovers.
   - A 6 dB/oct crossover slope.
@@ -225,5 +205,3 @@ Release checks:
 ## License
 
 [MIT](LICENSE). Built with [DPF](https://github.com/DISTRHO/DPF) and its bundled NanoVG, which are under the ISC license. `plugins/Magma/ResizeHandle.hpp` comes from DPF's examples and keeps its ISC notice.
-
-"FabFilter" and "FabFilter Saturn" are trademarks of FabFilter Software Instruments. Magma is not affiliated with or endorsed by FabFilter.
